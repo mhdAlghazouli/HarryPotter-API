@@ -1,0 +1,46 @@
+body{
+  background-image: url('https://images8.alphacoders.com/110/thumb-1920-1102284.jpg');
+}
+.container{
+  margin: auto;
+  width: 500px;
+  height: 800px;
+}
+.h1Container {
+    opacity: .5;
+}
+
+h1{
+  font-family: 'Harry Potter', sans-serif;
+  text-align: center; 
+  font-size:30px;
+                                              
+}
+
+.pContainer {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+.imgContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+    opacity: .7;
+}
+
+.imgContainer > img {
+  width: 300px;
+  height: 300px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+  opacity: .6;
+}
